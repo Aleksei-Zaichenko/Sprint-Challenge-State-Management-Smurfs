@@ -9,6 +9,7 @@ import {SmurfsReducer as reducer} from '../reducers/smurfsReducer';
 
 import GetSmurfsData from './getSmurfsData';
 import DisplaySmurfsList from './displaySmurfsList';
+import {PostSmurfData} from './postSmurfData';
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
@@ -21,6 +22,7 @@ class App extends Component {
           <div>Welcome to your state management version of Smurfs!</div>
           <div>Start inside of your `src/index.js` file!</div>
           <div>Have fun!</div>
+          <PostSmurfData />
           <GetSmurfsData/>
           <DisplaySmurfsList />
         </div>
