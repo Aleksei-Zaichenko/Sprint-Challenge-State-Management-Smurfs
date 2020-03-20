@@ -12,3 +12,15 @@
   width: 30%;
   border: 1px solid gainsboro;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+form button{
+  margin: 1%;
+  width: 10%;
+}

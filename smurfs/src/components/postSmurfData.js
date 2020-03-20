@@ -41,9 +41,9 @@ export const PostSmurfData = () => {
                         onChange={handleChange}
                     />
                 </label>
-                <label htmlFor="age">Age:
+                <label htmlFor="age">Age: 
                     <input
-                        type="text"
+                        type="number"
                         id="age"
                         name="age"
                         value={smurf.age}
